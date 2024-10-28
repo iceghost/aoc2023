@@ -3,6 +3,8 @@ const std = @import("std");
 pub fn build(b: *std.Build) void {
     buildTestOnly(b, "day1");
     buildTestOnly(b, "day2");
+    buildTestOnly(b, "day3");
+    buildTestOnly(b, "day4");
 }
 
 fn buildTestOnly(b: *std.Build, comptime name: []const u8) void {
